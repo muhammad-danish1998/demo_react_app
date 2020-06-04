@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
          Muhammad Danish :)
+         welcome to the world of CI/CD ..
         </p>
         <a
           className="App-link"

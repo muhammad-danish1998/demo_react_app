@@ -36,7 +36,7 @@ jobs:
       run: yarn build
     
     - name: installing surge  
-      run: npm install -g surge
+      run: yarn install -g surge
     
     - name: deploying on surge
       run: surge ./build http://ceaseless-belief.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
